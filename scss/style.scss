@@ -1,0 +1,135 @@
+//
+//color
+//
+$color-primary : #ff8872;
+$color-white :#ffffff;
+$color-dark : #767676;
+$color-ash : #ebebeb;
+//
+//font family
+//
+$raleway-font:'Raleway', sans-serif;
+$font-exo2:'Exo 2', sans-serif;
+
+//----------------global Style---------------
+body{
+  margin: 0;
+  font-family: $raleway-font;
+}
+div{
+  margin: 0;
+  &:hover{
+    text-decoration: none;
+  }
+}
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration:none;
+  }
+}
+h1{
+  margin:0;
+}
+h2{
+  margin:0;
+}
+ul{
+  margin:0;
+}
+section{
+
+}
+
+.wraper{
+  width: 1200px;
+  max-width: 70%;
+  margin:0 auto;
+}
+
+//----------------banner Style---------------
+
+.banner{
+  background-image:url(../image/banner1.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  header{
+    padding:2rem 0;
+
+  }
+  #logo{
+    font-family: $font-exo2;
+    color:$color-white;
+    font-size: 1.4em;
+    font-weight:bold;
+    width:20%;
+    margin: 0;
+    display: inline;
+
+  }
+  ul{
+    float:right;
+    }
+    li{
+      display:inline;
+      a{
+        color:$color-white;
+        text-decoration: none;
+        font-size: 1em;
+        margin-left: 2em;
+        &:hover{
+          color:$color-dark;
+          border-style: solid;
+          border-width: 0 0 0 3px;
+          border-color: $color-white;
+          font-weight: bold;
+          padding: 10px;
+          -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+          transition: .5s;
+
+        }
+      }
+    }
+  }
+  .content{
+    display: inline-flex;
+    .pre_tag{
+
+      .tagline{
+        padding-bottom: 20px;
+        font-size: 1.2em;
+        color: $color-dark;
+      }
+      .title{
+        font-size: 3em;
+        color: $color-white;
+        font-weight: normal;
+      }
+      .headerPre{
+        font-size: 1.5em;
+        color:$color-dark;
+      }
+      .apps-btn{
+        background-color: $color-primary;
+        color:$color-white;
+        display:inline;
+        padding:2.5rem 1rem 2.5rem 1rem;
+        &:hover{
+          background-color: $color-dark;
+          color:$color-primary;
+          text-decoration: none;
+          transition:1s;
+        }
+      }
+    }
+  .iphone_img{
+    margin:0;
+    //width:50%;
+    img{
+      margin:0;
+      width: auto;
+      height: auto;
+    }
+    }
+  }

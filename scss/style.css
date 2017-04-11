@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif; }
+
+div {
+  margin: 0; }
+  div:hover {
+    text-decoration: none; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+h1 {
+  margin: 0; }
+
+h2 {
+  margin: 0; }
+
+ul {
+  margin: 0; }
+
+.wraper {
+  width: 1200px;
+  max-width: 70%;
+  margin: 0 auto; }
+
+.banner {
+  background-image: url(../image/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .banner header {
+    padding: 2rem 0; }
+  .banner #logo {
+    font-family: "Exo 2", sans-serif;
+    color: #ffffff;
+    font-size: 1.4em;
+    font-weight: bold;
+    width: 20%;
+    margin: 0;
+    display: inline; }
+  .banner ul {
+    float: right; }
+  .banner li {
+    display: inline; }
+    .banner li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1em;
+      margin-left: 2em; }
+      .banner li a:hover {
+        color: #767676;
+        border-style: solid;
+        border-width: 0 0 0 3px;
+        border-color: #ffffff;
+        font-weight: bold;
+        padding: 10px;
+        -webkit-transition-timing-function: ease;
+        transition-timing-function: ease;
+        transition: .5s; }
+
+.content {
+  display: inline-flex; }
+  .content .pre_tag .tagline {
+    padding-bottom: 20px;
+    font-size: 1.2em;
+    color: #767676; }
+  .content .pre_tag .title {
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: normal; }
+  .content .pre_tag .headerPre {
+    font-size: 1.5em;
+    color: #767676; }
+  .content .pre_tag .apps-btn {
+    background-color: #ff8872;
+    color: #ffffff;
+    display: inline;
+    padding: 2.5rem 1rem 2.5rem 1rem; }
+    .content .pre_tag .apps-btn:hover {
+      background-color: #767676;
+      color: #ff8872;
+      text-decoration: none;
+      transition: 1s; }
+  .content .iphone_img {
+    margin: 0; }
+    .content .iphone_img img {
+      margin: 0;
+      width: auto;
+      height: auto; }
+
+/*# sourceMappingURL=style.css.map */
