@@ -16,12 +16,6 @@ body{
   margin: 0;
   font-family: $raleway-font;
 }
-div{
-  margin: 0;
-  &:hover{
-    text-decoration: none;
-  }
-}
 a{
   text-decoration: none;
   &:hover{
@@ -42,9 +36,7 @@ section{
 }
 
 .wraper{
-  width: 1200px;
-  max-width: 70%;
-  margin:0 auto;
+
 }
 
 //----------------banner Style---------------
@@ -132,4 +124,8 @@ section{
       height: auto;
     }
     }
+  }
+
+  .col-md-4{
+    padding: 1rem;
   }

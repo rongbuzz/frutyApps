@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
 
   <!--style.css ----------->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="scss\style.css"/>
   <title>Fruty Life | life style blog</title>
 </head>
   <body>
     <section class="banner">
-      <div class="wraper">
+      <div class="container">
         <header>
           <p id="logo">FRUTY LIFE</p>
           <nev>
@@ -22,6 +23,7 @@
             </ul>
           </nev>
         </header>
+
         <div class="content">
           <div class="pre_tag">
             <h2 class="tagline">FRUTY IS JUSY<h2>
@@ -48,31 +50,96 @@
 <!--__________ footer _________-->
 
 <div class="container">
-<div class="row">
-  <div class="col-sm-4">
-    <h3>Column 1</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+  <div class="row">
+    <div class="col-md-4 ">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-md-4 ">
+      <h3 class="">Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-md-4 ">
+      <h3>Column 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
   </div>
-  <div class="col-sm-4">
-    <h3>Column 2</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+
+  <div class="row">
+    <div class="col-md-4 ">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-md-4 ">
+      <h3 class="">Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-md-4 ">
+      <h3>Column 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
   </div>
-  <div class="col-sm-4">
-    <h3>Column 3</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+
+  <div class="row">
+    <div class="col-md-4 ">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-md-4 ">
+      <h3 class="">Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-md-4 ">
+      <h3>Column 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 ">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-md-4 ">
+      <h3 class="">Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-md-4 ">
+      <h3>Column 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
   </div>
 </div>
-</div>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function() {
+
+  $(window).scroll(function() {
+    parallax();
+  });
+
+    function parallax(){
+      var windowScroll=$(window).scrollTop();
+      $(".banner").css('background-position', 'center '+windowScroll*0.5+'px');
+    }
+  });
+</script>
   </body>
 </html>

@@ -2,11 +2,6 @@ body {
   margin: 0;
   font-family: "Raleway", sans-serif; }
 
-div {
-  margin: 0; }
-  div:hover {
-    text-decoration: none; }
-
 a {
   text-decoration: none; }
   a:hover {
@@ -20,11 +15,6 @@ h2 {
 
 ul {
   margin: 0; }
-
-.wraper {
-  width: 1200px;
-  max-width: 70%;
-  margin: 0 auto; }
 
 .banner {
   background-image: url(../image/banner1.png);
@@ -89,5 +79,8 @@ ul {
       margin: 0;
       width: auto;
       height: auto; }
+
+.col-md-4 {
+  padding: 1rem; }
 
 /*# sourceMappingURL=style.css.map */
